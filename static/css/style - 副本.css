@@ -42,7 +42,7 @@ textarea {
 
 
 .inner-center {
-    width: 80%;
+    width: 1000px;
     margin: 0 auto;
  
 }
@@ -67,17 +67,17 @@ textarea {
 .logo-box {
     display: flex;
     overflow: hidden;
-    margin-left: 30%;
+    margin-left: 250px;
     align-items: center;
 }
 .logo-left {
     position: relative;
-    width: 12.5%;
-    height: 12.1%;
+    width: 125px;
+    height: 121px;
     cursor: pointer;
 }
 .logo-right {
-    padding-left: 3.6%;
+    padding-left: 36px;
     font-size: 36px;
     color: rgba(0, 39, 102, 1);
     font-family: SourceHanSansSC-regular;
@@ -87,8 +87,8 @@ textarea {
 
 /* 搜索框 start */
 .search-section {
-    margin-top: 1.4%;
-    margin-bottom: 2%;
+    margin-top: 14px;
+    margin-bottom: 40px;
 }
 .search-section {
     position: relative;
@@ -96,7 +96,7 @@ textarea {
 }
 .search-left {
     display: flex;
-    width: 90%;
+    width: 877px;
     height: 54px;
     line-height: 20px;
     border: 1px solid rgba(217, 217, 217, 0.96);
@@ -170,7 +170,7 @@ textarea {
 .search-result {
     display: none;
     position: absolute;
-    width: 90%px;
+    width: 837px;
     top: 55px;
     left: 40px;
     border: 1px solid rgba(187, 187, 187, 1);
@@ -223,7 +223,7 @@ textarea {
 }
 
 .search-submit {
-    width: 12.3%;
+    width: 123px;
     height: 54px;
     line-height: 26px;
     /* background: url("./img/search.png") #1890ff 48px center no-repeat; */
@@ -236,7 +236,7 @@ textarea {
     background-size: 35px 35px;
     color: #fff;
     font-size: 18px;
-    font-weight: 60%;
+    font-weight: 500;
     text-align: center;
     font-family: Roboto;
     border: 1px solid #1890ff;
@@ -257,7 +257,7 @@ textarea {
 /*-----------------------------简洁版样式定义- 开始---------------------------------------------------*/
 
 .jj-list {
-    width: 100%;
+    width: 33.33%;
     float: left;
     margin-bottom: 30px;
     padding-right: 16px;
@@ -279,7 +279,7 @@ textarea {
 .jj-list-con li {
     box-sizing: border-box; /*以IE盒子模型的width为标准*/
     padding: 1px 1px; /*设置div的内边距*/
-    width: 20%; /*div等分成5部分*/
+    width: 33.33%; /*div等分成4部分*/
     float: left;
     transform-origin: center top;
 }
